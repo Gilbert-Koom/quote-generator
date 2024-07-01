@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
-  font-size: clamp(32px, 4vw, 48px);
+  font-size: clamp(10px, 4vw, 20px);
   font-family: "Manrope", sans-serif;
 }
 
