@@ -11,9 +11,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>Click the button to generate a quote</p>
-    <button onclick="fetcher()">Generate advice</button>
-    <i id="demo"></i>
+    
+    <div class="quote-container">
+        
+        <p class="p1">ADVICE # <span>117</span></p>
+        <p id="second">"It is easy to sit up and take</p>
+        <p id="third">notice, what's difficult is getting </p>
+        <p class="p4" id="fourth">up and taking action"</p>
+        
+
+        <picture>
+
+            <source media="(min-width:374px)" srcset="images/pattern-divider-desktop.svg">
+            
+            <img src="images/pattern-divider-mobile.svg" alt="">
+        </picture>
+
+    </div>
+    <div class="dice-container" onclick="fetcher()">
+        <img src="images/icon-dice.svg" alt="" class="dice" onclick="fetcher()">
+        
+    </div>
     
 </body>
 </html>

@@ -9,9 +9,12 @@ function fetcher(){
             res.json()).then(d => {
                 
                 console.log(d)
-                const adviceContainer=document.getElementById('demo');
-                adviceContainer.innerHTML=d.slip.advice
-                console.log(d.slip.advice)
+                let adviceId= document.querySelector('span');
+                adviceId.innerHTML=d.slip.id
+                document.getElementById('second').innerHTML=`"${d.slip.advice}"`
+                document.getElementById('third').innerHTML=''
+                document.getElementById('fourth').innerHTML=''
+
             })
 }
     

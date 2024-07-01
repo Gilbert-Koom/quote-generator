@@ -2,7 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+    font-size: clamp(32px, 4vw, 48px);
 
     font-family: "Manrope", sans-serif;
+    
+}
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+.p4{
+    padding-bottom: 25px;
+    
+}
+
+#second{
+    text-align: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(217, 19%, 24%);
+
+    
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding-top: 45px;
+    
+    
+}
+
+picture{
+    margin-bottom: 100px;
+}
+
+.quote-container>p{
+    display: inline;
+    
+    margin: auto;
+}
+picture>img{
+    margin: auto;
+    width: 90%;
+    
+}
+.dice{
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dice-container:hover{
+    
+    box-shadow: 0 0 0 10px hsl(193, 38%, 86%);
+}
+
+.dice-container{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    right: 2em;
+    bottom: 25px;
+    
+
+    justify-content: center;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin: auto;
+    
+    
+}
+span{color: hsl(150, 100%, 66%);}
+.p1{
+    padding-bottom: 45px;
+    color: hsl(150, 100%, 66%);
+}
+
+
+@media (min-width:500px) {
+    
+    .quote-container{
+        margin: auto;
+        margin-top: 150px;
+    }
+    .dice-container{
+        left: -1em;
+    }
+
     
 }
